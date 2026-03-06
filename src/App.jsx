@@ -175,7 +175,7 @@ export default class App extends React.Component {
 
     return (
       <div className="page">
-        {<Header totalPosts={posts.length} totalLikes= {posts.likes} totalDislikes={posts.dislikes} />}
+        {<Header totalPosts={posts.length} totalLikes={totalLikes} totalDislikes={totalDislikes} />}
 
         <div className="layout">
           <aside className="panel" id="about">

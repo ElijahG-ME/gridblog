@@ -11,10 +11,12 @@ export default function Header({ totalPosts, totalLikes, totalDislikes }) {
   // TODO: Replace return null with your JSX
   return (
   <div>
-    <h1>GridBlog</h1>
-    <p>Total Posts: {totalPosts}</p>
-    <p>Total Likes: {totalLikes}</p>
-    <p>Total Dislikes: {totalDislikes}</p>
+    <h1 className="header">GridBlog</h1>
+    <div className="headerStats">
+        <div>Total Posts: {totalPosts}</div>
+        <div>Total Likes: {totalLikes}</div>
+        Total Dislikes: {totalDislikes}    
+    </div>
   </div>
   );
 }
